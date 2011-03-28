@@ -1,0 +1,20 @@
+class ....
+{
+	....... main(...)
+	{
+		ServerInterface x;
+
+		try {
+		x = (ServerInterface) Naming.lookup("rmi://..../ChatServer");
+		} catch()
+
+		ler autor (quem é vc?)
+		for(;;)
+		{
+			ler mensagem do teclado
+			msg = new Message(...,...)
+			x.send(msg);
+			if (mensagem=tchau) break;
+		}
+	}
+}

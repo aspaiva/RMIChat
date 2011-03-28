@@ -1,0 +1,25 @@
+class ....
+{
+	....... main(...)
+	{
+		int ultima=1;
+
+		ServerInterface x;
+
+		try {
+		x = (ServerInterface) Naming.lookup("rmi://..../ChatServer");
+		} catch()
+
+		
+		for(;;)
+		{
+			msg = x.receive(ultima);
+			if(msg!=null)
+			{
+				println(conteúdo);
+				ultima++;
+			}
+			Thread.sleep(1000);
+		}
+	}
+}
