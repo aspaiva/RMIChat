@@ -1,0 +1,3 @@
+Este repositório foi criado para a disciplina do professor Jonivan Lisboa do curso de pós-graduação APGSI - Análise .... #TODO
+
+O primeiro exercício abordado na disciplina consiste em uma aplicação cliente-servidor básica organizada em componentes. Essa aplicação é uma aplicação de chat.O desafio é: Uma vez que tenhamos um componente servidor de chat, são dados dois esboços de clientes para utilizar a API de serviços do Servidor. Um cliente só envia as mensagens, o outro só recebe.
