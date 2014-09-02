@@ -1,0 +1,17 @@
+Este repositório foi criado para a disciplina do professor Jonivan Lisboa do curso de pós-graduação APGSI - Análise .... #TODO
+
+O primeiro exercício abordado na disciplina consiste em uma aplicação de chat cliente-servidor primitiva sob a forma de componentes. 
+O desafio é: Uma vez que tenhamos um componente servidor de chat, são dados dois esboços de clientes para utilizar a API de serviços do Servidor. Um cliente só deve enviar as mensagens, o outro só deve recebê-las, como um log.
+
+Para fazer funcionar, execute no terminal:
+
+# Compilar os arquivos-fonte
+javac *.java
+rmic Server.class
+
+# Executar os bytecodes, um em cada terminal
+java ServerInit
+java ChatSend
+java ChatReceive
+
+Enjoy! ;D
